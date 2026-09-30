@@ -108,14 +108,15 @@ document.getElementById('closeBtn').addEventListener('click', function(){
 // ★ 道具盒子函数：根据道具名称获取图片路径
 function getItemImage(itemName, type) {
   if(!itemName) return '';
+  var timestamp = '?t=' + Date.now();
   // 1. 先查映射表（处理带 | 的特殊名称）
   if(window.ITEM_BASE_NAME_MAP && window.ITEM_BASE_NAME_MAP[itemName]){
     var baseName = window.ITEM_BASE_NAME_MAP[itemName];
-    return '../images/items_box/' + baseName + '/' + type + '.png';
+    return '../images/items_box/' + baseName + '/' + type + '.png' + timestamp;
   }
   // 2. 再用正则去掉末尾的×数量
   var cleanName = itemName.replace(/[×*]\d+$/, '');
-  return '../images/items_box/' + cleanName + '/' + type + '.png';
+  return '../images/items_box/' + cleanName + '/' + type + '.png' + timestamp;
 }
 
 // 品质边框图片映射

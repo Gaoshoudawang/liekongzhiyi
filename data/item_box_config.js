@@ -5,139 +5,85 @@
 // ============================================================
 
 var ITEM_BOX_CONFIG = {
-  "QBZ03-王者蔷薇": {
+  "王者幻神": {
     "quality": "gold",
     "has_showcase": true,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "QBZ03-王者蔷薇-烟雨之印": {
+  "王者幻神-猎空之翼": {
+    "quality": "gold",
+    "has_showcase": true,
+    "gacha_behavior": "storage",
+    "bonus_behavior": "warehouse"
+  },
+  "狙击枪线-猎空之翼": {
     "quality": "gold",
     "has_showcase": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "QBZ03-王者蔷薇-烟雨之殇": {
+  "王者幻神-猎空之翼-原汁原味": {
     "quality": "gold",
     "has_showcase": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "QBZ03-王者蔷薇-烟雨之触": {
+  "王者幻神-现代战场": {
     "quality": "gold",
     "has_showcase": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "QBZ03-王者蔷薇-离恨烟": {
-    "quality": "gold",
-    "has_showcase": true,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "印花双鲤戏水": {
+  "王者幻神-量子谐波": {
     "quality": "gold",
     "has_showcase": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "双鲤戏水喷漆": {
+  "猎空之翼挂饰": {
     "quality": "gold",
     "has_showcase": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "手雷-王者蔷薇": {
-    "quality": "gold",
-    "has_showcase": true,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "手雷-王者蔷薇-离恨烟": {
-    "quality": "gold",
-    "has_showcase": true,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "抛物线-烟雨之梦": {
+  "王者幻神-猎空之触": {
     "quality": "gold",
     "has_showcase": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "柯尔特-王者蔷薇": {
-    "quality": "gold",
-    "has_showcase": true,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "柯尔特-王者蔷薇-离恨烟": {
-    "quality": "gold",
-    "has_showcase": true,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "烟雾弹-王者蔷薇": {
+  "王者幻神-猎空之殇": {
     "quality": "gold",
     "has_showcase": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "烟雾弹-王者蔷薇-离恨烟": {
-    "quality": "gold",
-    "has_showcase": true,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "燃烧弹-王者蔷薇": {
-    "quality": "gold",
-    "has_showcase": true,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "燃烧弹-王者蔷薇-离恨烟": {
-    "quality": "gold",
-    "has_showcase": true,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "王者之心-离恨烟": {
-    "quality": "gold",
-    "has_showcase": true,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "王者之心-离恨烟-烟雨之印": {
+  "王者幻神-猎空之印": {
     "quality": "gold",
     "has_showcase": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "王者之心-离恨烟-烟雨之殇": {
+  "击杀图标-猎空之翼1": {
     "quality": "gold",
     "has_showcase": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "王者之心-离恨烟-烟雨之触": {
+  "击杀图标-猎空之翼2": {
     "quality": "gold",
     "has_showcase": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "王者蔷薇扇": {
+  "520喷漆": {
     "quality": "gold",
-    "has_showcase": true,
+    "has_showcase": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "王者蔷薇扇-离恨烟": {
-    "quality": "gold",
-    "has_showcase": true,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "离恨烟兑换币": {
+  "猎空之翼兑换币": {
     "quality": "purple",
     "has_showcase": false,
     "gacha_behavior": "points",
@@ -145,7 +91,7 @@ var ITEM_BOX_CONFIG = {
     "points_type": "exchange",
     "points_amount": 1
   },
-  "离恨烟夺宝币": {
+  "猎空之翼夺宝币": {
     "quality": "gold",
     "has_showcase": false,
     "decompose_points": 0,
@@ -153,24 +99,6 @@ var ITEM_BOX_CONFIG = {
     "special": true,
     "gacha_behavior": "none",
     "bonus_behavior": "none"
-  },
-  "离恨烟挂饰": {
-    "quality": "gold",
-    "has_showcase": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "闪光弹-王者蔷薇": {
-    "quality": "gold",
-    "has_showcase": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "闪光弹-王者蔷薇-离恨烟": {
-    "quality": "gold",
-    "has_showcase": true,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
   }
 };
 

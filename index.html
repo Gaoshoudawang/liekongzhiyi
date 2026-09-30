@@ -5,7 +5,7 @@
   <meta name="supported-color-schemes" content="light">
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>离恨烟夺宝抽奖模拟器</title>
+<title>猎空之翼夺宝抽奖模拟器</title>
 <style>
 :root{
   --primary-color: #4a8c5f;
@@ -543,7 +543,7 @@ img {
       <div class="loading-spinner"></div>
       <div class="loading-spinner-center"></div>
     </div>
-    <div class="loading-logo">离恨烟夺宝</div>
+    <div class="loading-logo">猎空之翼夺宝</div>
     <div class="loading-stage" id="loadingStageText">正在初始化模拟器···</div>
     <!-- 进度条 + 百分比（同一行，百分比在进度条后面） -->
     <div class="loading-bar-row">
@@ -1268,7 +1268,7 @@ var PRELOAD_RESOURCES = [
   'images/common/animation_bg/bg_button_noname.webp',
   'images/common/animation_bg/bg_start.webp',
   'images/common/bonus/extra/tip_bg.png',
-  'images/common/bonus/extra/离恨烟兑换币.png',
+  'images/items_box/猎空之翼兑换币/small.png',
   'images/common/coins/cfm_coin_icon.png',
   'images/common/coins/gacha_coin_icon.png',
   'images/common/coins/points_coin_icon.png',
@@ -1294,61 +1294,22 @@ var PRELOAD_RESOURCES = [
   'images/common/slot/purple.png',
   'images/common/slot/red.png',
   'images/common/slot/white.png',
-  'images/items_box/QBZ03-王者蔷薇-烟雨之印/small.png',
-  'images/items_box/QBZ03-王者蔷薇-烟雨之殇/small.png',
-  'images/items_box/QBZ03-王者蔷薇-烟雨之触/small.png',
-  'images/items_box/QBZ03-王者蔷薇-离恨烟/exchange.png',
-  'images/items_box/QBZ03-王者蔷薇-离恨烟/showcase.png',
-  'images/items_box/QBZ03-王者蔷薇-离恨烟/small.png',
-  'images/items_box/QBZ03-王者蔷薇/exchange.png',
-  'images/items_box/QBZ03-王者蔷薇/showcase.png',
-  'images/items_box/QBZ03-王者蔷薇/small.png',
-  'images/items_box/印花双鲤戏水/small.png',
-  'images/items_box/双鲤戏水喷漆/small.png',
-  'images/items_box/手雷-王者蔷薇-离恨烟/exchange.png',
-  'images/items_box/手雷-王者蔷薇-离恨烟/showcase.png',
-  'images/items_box/手雷-王者蔷薇-离恨烟/small.png',
-  'images/items_box/手雷-王者蔷薇/exchange.png',
-  'images/items_box/手雷-王者蔷薇/showcase.png',
-  'images/items_box/手雷-王者蔷薇/small.png',
-  'images/items_box/抛物线-烟雨之梦/small.png',
-  'images/items_box/柯尔特-王者蔷薇-离恨烟/exchange.png',
-  'images/items_box/柯尔特-王者蔷薇-离恨烟/showcase.png',
-  'images/items_box/柯尔特-王者蔷薇-离恨烟/small.png',
-  'images/items_box/柯尔特-王者蔷薇/exchange.png',
-  'images/items_box/柯尔特-王者蔷薇/showcase.png',
-  'images/items_box/柯尔特-王者蔷薇/small.png',
-  'images/items_box/烟雾弹-王者蔷薇-离恨烟/exchange.png',
-  'images/items_box/烟雾弹-王者蔷薇-离恨烟/showcase.png',
-  'images/items_box/烟雾弹-王者蔷薇-离恨烟/small.png',
-  'images/items_box/烟雾弹-王者蔷薇/exchange.png',
-  'images/items_box/燃烧弹-王者蔷薇-离恨烟/exchange.png',
-  'images/items_box/燃烧弹-王者蔷薇-离恨烟/showcase.png',
-  'images/items_box/燃烧弹-王者蔷薇-离恨烟/small.png',
-  'images/items_box/燃烧弹-王者蔷薇/exchange.png',
-  'images/items_box/燃烧弹-王者蔷薇/showcase.png',
-  'images/items_box/燃烧弹-王者蔷薇/small.png',
-  'images/items_box/王者之心-离恨烟-烟雨之印/small.png',
-  'images/items_box/王者之心-离恨烟-烟雨之殇/small.png',
-  'images/items_box/王者之心-离恨烟-烟雨之触/small.png',
-  'images/items_box/王者之心-离恨烟/exchange.png',
-  'images/items_box/王者之心-离恨烟/showcase.png',
-  'images/items_box/王者之心-离恨烟/small.png',
-  'images/items_box/王者蔷薇扇-离恨烟/exchange.png',
-  'images/items_box/王者蔷薇扇-离恨烟/showcase.png',
-  'images/items_box/王者蔷薇扇-离恨烟/small.png',
-  'images/items_box/王者蔷薇扇/exchange.png',
-  'images/items_box/王者蔷薇扇/showcase.png',
-  'images/items_box/王者蔷薇扇/small.png',
-  'images/items_box/离恨烟兑换币/bonus.png',
-  'images/items_box/离恨烟兑换币/small.png',
-  'images/items_box/离恨烟夺宝币/showcase.png',
-  'images/items_box/离恨烟夺宝币/small.png',
-  'images/items_box/离恨烟挂饰/small.png',
-  'images/items_box/闪光弹-王者蔷薇-离恨烟/exchange.png',
-  'images/items_box/闪光弹-王者蔷薇-离恨烟/showcase.png',
-  'images/items_box/闪光弹-王者蔷薇-离恨烟/small.png',
-  'images/items_box/闪光弹-王者蔷薇/exchange.png'
+  'images/items_box/520喷漆/small.png',
+  'images/items_box/击杀图标-猎空之翼1/small.png',
+  'images/items_box/击杀图标-猎空之翼2/small.png',
+  'images/items_box/狙击枪线-猎空之翼/small.png',
+  'images/items_box/猎空之翼兑换币/small.png',
+  'images/items_box/猎空之翼挂饰/small.png',
+  'images/items_box/王者幻神/showcase.png',
+  'images/items_box/王者幻神/small.png',
+  'images/items_box/王者幻神-猎空之印/small.png',
+  'images/items_box/王者幻神-猎空之殇/small.png',
+  'images/items_box/王者幻神-猎空之翼/showcase.png',
+  'images/items_box/王者幻神-猎空之翼/small.png',
+  'images/items_box/王者幻神-猎空之触/small.png',
+  'images/items_box/王者幻神-猎空之翼-原汁原味/small.png',
+  'images/items_box/王者幻神-现代战场/small.png',
+  'images/items_box/王者幻神-量子谐波/small.png'
 ];
 
 

@@ -1,29 +1,33 @@
 // ============================================================
-// 离恨烟夺宝 - 统一道具映射配置文件
+// 猎空之翼夺宝 - 统一道具映射配置文件
 // 所有页面都引用这个文件，换皮只需要改这一个文件
-// 自动生成，请勿手动修改各个HTML文件中的映射表
 // ============================================================
 
 // ITEM_SMALL_IMAGES
 window.ITEM_SMALL_IMAGES = {
-  'QBZ03-王者蔷薇': 'images/items_box/QBZ03-王者蔷薇/small.png',
-  '柯尔特-王者蔷薇': 'images/items_box/柯尔特-王者蔷薇/small.png',
-  '王者蔷薇扇': 'images/items_box/王者蔷薇扇/small.png',
-  '手雷-王者蔷薇': 'images/items_box/手雷-王者蔷薇/small.png',
-  '燃烧弹-王者蔷薇': 'images/items_box/燃烧弹-王者蔷薇/small.png',
-  'QBZ03-王者蔷薇-离恨烟': 'images/items_box/QBZ03-王者蔷薇-离恨烟/small.png',
-  '王者之心-离恨烟': 'images/items_box/王者之心-离恨烟/small.png',
-  '柯尔特-王者蔷薇-离恨烟': 'images/items_box/柯尔特-王者蔷薇-离恨烟/small.png',
-  '王者蔷薇扇-离恨烟': 'images/items_box/王者蔷薇扇-离恨烟/small.png',
-  '手雷-王者蔷薇-离恨烟': 'images/items_box/手雷-王者蔷薇-离恨烟/small.png',
-  '闪光弹-王者蔷薇-离恨烟': 'images/items_box/闪光弹-王者蔷薇-离恨烟/small.png',
-  '烟雾弹-王者蔷薇-离恨烟': 'images/items_box/烟雾弹-王者蔷薇-离恨烟/small.png',
-  '燃烧弹-王者蔷薇-离恨烟': 'images/items_box/燃烧弹-王者蔷薇-离恨烟/small.png',
-  '离恨烟兑换币×18': 'images/items_box/离恨烟兑换币/small.png',
-  '离恨烟兑换币×12': 'images/items_box/离恨烟兑换币/small.png',
-  '离恨烟兑换币×6': 'images/items_box/离恨烟兑换币/small.png',
-  '离恨烟兑换币×3': 'images/items_box/离恨烟兑换币/small.png',
-  '离恨烟兑换币×2': 'images/items_box/离恨烟兑换币/small.png'
+  '王者幻神': 'images/items_box/王者幻神/small.png',
+  '王者幻神-猎空之翼': 'images/items_box/王者幻神-猎空之翼/small.png',
+  '狙击枪线-猎空之翼': 'images/items_box/狙击枪线-猎空之翼/small.png',
+  '王者幻神-猎空之翼-原汁原味': 'images/items_box/王者幻神-猎空之翼-原汁原味/small.png',
+  '王者幻神-现代战场': 'images/items_box/王者幻神-现代战场/small.png',
+  '王者幻神-量子谐波': 'images/items_box/王者幻神-量子谐波/small.png',
+  '猎空之翼挂饰': 'images/items_box/猎空之翼挂饰/small.png',
+  '王者幻神-猎空之触': 'images/items_box/王者幻神-猎空之触/small.png',
+  '王者幻神-猎空之殇': 'images/items_box/王者幻神-猎空之殇/small.png',
+  '王者幻神-猎空之印': 'images/items_box/王者幻神-猎空之印/small.png',
+  '击杀图标-猎空之翼1': 'images/items_box/击杀图标-猎空之翼1/small.png',
+  '击杀图标-猎空之翼2': 'images/items_box/击杀图标-猎空之翼2/small.png',
+  '520喷漆': 'images/items_box/520喷漆/small.png',
+  '猎空之翼兑换币×88': 'images/items_box/猎空之翼兑换币/small.png',
+  '猎空之翼兑换币×66': 'images/items_box/猎空之翼兑换币/small.png',
+  '猎空之翼兑换币×30': 'images/items_box/猎空之翼兑换币/small.png',
+  '猎空之翼兑换币×18': 'images/items_box/猎空之翼兑换币/small.png',
+  '猎空之翼兑换币×12': 'images/items_box/猎空之翼兑换币/small.png',
+  '猎空之翼兑换币×10': 'images/items_box/猎空之翼兑换币/small.png',
+  '猎空之翼兑换币×8': 'images/items_box/猎空之翼兑换币/small.png',
+  '猎空之翼兑换币×3': 'images/items_box/猎空之翼兑换币/small.png',
+  '猎空之翼兑换币×2': 'images/items_box/猎空之翼兑换币/small.png',
+  '猎空之翼兑换币×1': 'images/items_box/猎空之翼兑换币/small.png',
 };
 
 
@@ -37,72 +41,17 @@ window.SLOT_IMAGES = {
 
 // SHOWCASE_IMAGES
 window.SHOWCASE_IMAGES = {
-  'QBZ03-王者蔷薇': '../images/items_box/QBZ03-王者蔷薇/showcase.png',
-  '柯尔特-王者蔷薇': '../images/items_box/柯尔特-王者蔷薇/showcase.png',
-  '王者蔷薇扇': '../images/items_box/王者蔷薇扇/showcase.png',
-  '手雷-王者蔷薇': '../images/items_box/手雷-王者蔷薇/showcase.png',
-  '燃烧弹-王者蔷薇': '../images/items_box/燃烧弹-王者蔷薇/showcase.png',
-  'QBZ03-王者蔷薇-离恨烟': '../images/items_box/QBZ03-王者蔷薇-离恨烟/showcase.png',
-  '王者之心-离恨烟': '../images/items_box/王者之心-离恨烟/showcase.png',
-  '柯尔特-王者蔷薇-离恨烟': '../images/items_box/柯尔特-王者蔷薇-离恨烟/showcase.png',
-  '王者蔷薇扇-离恨烟': '../images/items_box/王者蔷薇扇-离恨烟/showcase.png',
-  '手雷-王者蔷薇-离恨烟': '../images/items_box/手雷-王者蔷薇-离恨烟/showcase.png',
-  '闪光弹-王者蔷薇-离恨烟': '../images/items_box/闪光弹-王者蔷薇-离恨烟/showcase.png',
-  '烟雾弹-王者蔷薇-离恨烟': '../images/items_box/烟雾弹-王者蔷薇-离恨烟/showcase.png',
-  '燃烧弹-王者蔷薇-离恨烟': '../images/items_box/燃烧弹-王者蔷薇-离恨烟/showcase.png',
+  '王者幻神': '../images/items_box/王者幻神/showcase.png',
+  '王者幻神-猎空之翼': '../images/items_box/王者幻神-猎空之翼/showcase.png',
 };
 
 // SHOWCASE_BG_IMAGES
 window.SHOWCASE_BG_IMAGES = {
-  'QBZ03-王者蔷薇': {
+  '王者幻神': {
     bgStart: '../images/common/animation_bg/bg_start.webp',
     bgButton: '../images/common/animation_bg/bg_button_noname.webp'
   },
-  '柯尔特-王者蔷薇': {
-    bgStart: '../images/common/animation_bg/bg_start.webp',
-    bgButton: '../images/common/animation_bg/bg_button_noname.webp'
-  },
-  '王者蔷薇扇': {
-    bgStart: '../images/common/animation_bg/bg_start.webp',
-    bgButton: '../images/common/animation_bg/bg_button_noname.webp'
-  },
-  '手雷-王者蔷薇': {
-    bgStart: '../images/common/animation_bg/bg_start.webp',
-    bgButton: '../images/common/animation_bg/bg_button_noname.webp'
-  },
-  '燃烧弹-王者蔷薇': {
-    bgStart: '../images/common/animation_bg/bg_start.webp',
-    bgButton: '../images/common/animation_bg/bg_button_noname.webp'
-  },
-  'QBZ03-王者蔷薇-离恨烟': {
-    bgStart: '../images/common/animation_bg/bg_start.webp',
-    bgButton: '../images/common/animation_bg/bg_button_noname.webp'
-  },
-  '王者之心-离恨烟': {
-    bgStart: '../images/common/animation_bg/bg_start.webp',
-    bgButton: '../images/common/animation_bg/bg_button_noname.webp'
-  },
-  '柯尔特-王者蔷薇-离恨烟': {
-    bgStart: '../images/common/animation_bg/bg_start.webp',
-    bgButton: '../images/common/animation_bg/bg_button_noname.webp'
-  },
-  '王者蔷薇扇-离恨烟': {
-    bgStart: '../images/common/animation_bg/bg_start.webp',
-    bgButton: '../images/common/animation_bg/bg_button_noname.webp'
-  },
-  '手雷-王者蔷薇-离恨烟': {
-    bgStart: '../images/common/animation_bg/bg_start.webp',
-    bgButton: '../images/common/animation_bg/bg_button_noname.webp'
-  },
-  '闪光弹-王者蔷薇-离恨烟': {
-    bgStart: '../images/common/animation_bg/bg_start.webp',
-    bgButton: '../images/common/animation_bg/bg_button_noname.webp'
-  },
-  '烟雾弹-王者蔷薇-离恨烟': {
-    bgStart: '../images/common/animation_bg/bg_start.webp',
-    bgButton: '../images/common/animation_bg/bg_button_noname.webp'
-  },
-  '燃烧弹-王者蔷薇-离恨烟': {
+  '王者幻神-猎空之翼': {
     bgStart: '../images/common/animation_bg/bg_start.webp',
     bgButton: '../images/common/animation_bg/bg_button_noname.webp'
   },
@@ -110,19 +59,15 @@ window.SHOWCASE_BG_IMAGES = {
 
 // EXCHANGE_ITEMS_MAP
 window.EXCHANGE_ITEMS_MAP = {
-  'QBZ03-王者蔷薇-离恨烟': {image: '../images/items_box/QBZ03-王者蔷薇-离恨烟/small.png', quality: 'gold'},
-  '王者之心-离恨烟': {image: '../images/items_box/王者之心-离恨烟/small.png', quality: 'gold'},
-  '柯尔特-王者蔷薇-离恨烟': {image: '../images/items_box/柯尔特-王者蔷薇-离恨烟/small.png', quality: 'gold'},
-  '王者蔷薇扇-离恨烟': {image: '../images/items_box/王者蔷薇扇-离恨烟/small.png', quality: 'gold'},
-  '手雷-王者蔷薇-离恨烟': {image: '../images/items_box/手雷-王者蔷薇-离恨烟/small.png', quality: 'gold'},
-  '闪光弹-王者蔷薇-离恨烟': {image: '../images/items_box/闪光弹-王者蔷薇-离恨烟/small.png', quality: 'gold'},
-  '烟雾弹-王者蔷薇-离恨烟': {image: '../images/items_box/烟雾弹-王者蔷薇-离恨烟/small.png', quality: 'gold'},
-  '燃烧弹-王者蔷薇-离恨烟': {image: '../images/items_box/燃烧弹-王者蔷薇-离恨烟/small.png', quality: 'gold'},
-  'QBZ03-王者蔷薇': {image: '../images/items_box/QBZ03-王者蔷薇/small.png', quality: 'gold'},
-  '柯尔特-王者蔷薇': {image: '../images/items_box/柯尔特-王者蔷薇/small.png', quality: 'gold'},
-  '王者蔷薇扇': {image: '../images/items_box/王者蔷薇扇/small.png', quality: 'gold'},
-  '手雷-王者蔷薇': {image: '../images/items_box/手雷-王者蔷薇/small.png', quality: 'gold'},
-  '燃烧弹-王者蔷薇': {image: '../images/items_box/燃烧弹-王者蔷薇/small.png', quality: 'gold'}
+  '王者幻神': {image: '../images/items_box/王者幻神/small.png', quality: 'gold'},
+  '王者幻神-猎空之翼': {image: '../images/items_box/王者幻神-猎空之翼/small.png', quality: 'gold'},
+  '狙击枪线-猎空之翼': {image: '../images/items_box/狙击枪线-猎空之翼/small.png', quality: 'gold'},
+  '王者幻神-猎空之触': {image: '../images/items_box/王者幻神-猎空之触/small.png', quality: 'gold'},
+  '王者幻神-猎空之殇': {image: '../images/items_box/王者幻神-猎空之殇/small.png', quality: 'gold'},
+  '王者幻神-猎空之印': {image: '../images/items_box/王者幻神-猎空之印/small.png', quality: 'gold'},
+  '猎空之翼挂饰': {image: '../images/items_box/猎空之翼挂饰/small.png', quality: 'gold'},
+  '击杀图标-猎空之翼1': {image: '../images/items_box/击杀图标-猎空之翼1/small.png', quality: 'gold'},
+  '击杀图标-猎空之翼2': {image: '../images/items_box/击杀图标-猎空之翼2/small.png', quality: 'gold'},
 };
 
 // 根据道具名称或ID查找道具信息
@@ -158,139 +103,85 @@ window.ITEM_MAPPING = {};
 })();
 
 var ITEM_BEHAVIOR = {
-  'QBZ03-王者蔷薇': {
+  '王者幻神': {
     quality: 'gold',
     has_showcase: true,
     gacha_behavior: 'storage',
     bonus_behavior: 'warehouse',
   },
-  'QBZ03-王者蔷薇-烟雨之印': {
-    quality: 'gold',
-    has_showcase: false,
-    gacha_behavior: 'storage',
-    bonus_behavior: 'warehouse',
-  },
-  'QBZ03-王者蔷薇-烟雨之殇': {
-    quality: 'gold',
-    has_showcase: false,
-    gacha_behavior: 'storage',
-    bonus_behavior: 'warehouse',
-  },
-  'QBZ03-王者蔷薇-烟雨之触': {
-    quality: 'gold',
-    has_showcase: false,
-    gacha_behavior: 'storage',
-    bonus_behavior: 'warehouse',
-  },
-  'QBZ03-王者蔷薇-离恨烟': {
+  '王者幻神-猎空之翼': {
     quality: 'gold',
     has_showcase: true,
     gacha_behavior: 'storage',
     bonus_behavior: 'warehouse',
   },
-  '印花|双鲤戏水': {
+  '狙击枪线-猎空之翼': {
     quality: 'gold',
     has_showcase: false,
     gacha_behavior: 'storage',
     bonus_behavior: 'warehouse',
   },
-  '双鲤戏水喷漆': {
+  '王者幻神-猎空之翼-原汁原味': {
     quality: 'gold',
     has_showcase: false,
     gacha_behavior: 'storage',
     bonus_behavior: 'warehouse',
   },
-  '手雷-王者蔷薇': {
-    quality: 'gold',
-    has_showcase: true,
-    gacha_behavior: 'storage',
-    bonus_behavior: 'warehouse',
-  },
-  '手雷-王者蔷薇-离恨烟': {
+  '王者幻神-现代战场': {
     quality: 'gold',
     has_showcase: false,
     gacha_behavior: 'storage',
     bonus_behavior: 'warehouse',
   },
-  '抛物线-烟雨之梦': {
+  '王者幻神-量子谐波': {
     quality: 'gold',
     has_showcase: false,
     gacha_behavior: 'storage',
     bonus_behavior: 'warehouse',
   },
-  '柯尔特-王者蔷薇': {
-    quality: 'gold',
-    has_showcase: true,
-    gacha_behavior: 'storage',
-    bonus_behavior: 'warehouse',
-  },
-  '柯尔特-王者蔷薇-离恨烟': {
+  '猎空之翼挂饰': {
     quality: 'gold',
     has_showcase: false,
     gacha_behavior: 'storage',
     bonus_behavior: 'warehouse',
   },
-  '烟雾弹-王者蔷薇': {
+  '王者幻神-猎空之触': {
     quality: 'gold',
     has_showcase: false,
     gacha_behavior: 'storage',
     bonus_behavior: 'warehouse',
   },
-  '烟雾弹-王者蔷薇-离恨烟': {
+  '王者幻神-猎空之殇': {
     quality: 'gold',
     has_showcase: false,
     gacha_behavior: 'storage',
     bonus_behavior: 'warehouse',
   },
-  '燃烧弹-王者蔷薇': {
-    quality: 'gold',
-    has_showcase: true,
-    gacha_behavior: 'storage',
-    bonus_behavior: 'warehouse',
-  },
-  '燃烧弹-王者蔷薇-离恨烟': {
+  '王者幻神-猎空之印': {
     quality: 'gold',
     has_showcase: false,
     gacha_behavior: 'storage',
     bonus_behavior: 'warehouse',
   },
-  '王者之心-离恨烟': {
-    quality: 'gold',
-    has_showcase: true,
-    gacha_behavior: 'storage',
-    bonus_behavior: 'warehouse',
-  },
-  '王者之心-离恨烟-烟雨之印': {
+  '击杀图标-猎空之翼1': {
     quality: 'gold',
     has_showcase: false,
     gacha_behavior: 'storage',
     bonus_behavior: 'warehouse',
   },
-  '王者之心-离恨烟-烟雨之殇': {
+  '击杀图标-猎空之翼2': {
     quality: 'gold',
     has_showcase: false,
     gacha_behavior: 'storage',
     bonus_behavior: 'warehouse',
   },
-  '王者之心-离恨烟-烟雨之触': {
+  '520喷漆': {
     quality: 'gold',
     has_showcase: false,
     gacha_behavior: 'storage',
     bonus_behavior: 'warehouse',
   },
-  '王者蔷薇扇': {
-    quality: 'gold',
-    has_showcase: true,
-    gacha_behavior: 'storage',
-    bonus_behavior: 'warehouse',
-  },
-  '王者蔷薇扇-离恨烟': {
-    quality: 'gold',
-    has_showcase: false,
-    gacha_behavior: 'storage',
-    bonus_behavior: 'warehouse',
-  },
-  '离恨烟兑换币': {
+  '猎空之翼兑换币': {
     quality: 'purple',
     has_showcase: false,
     gacha_behavior: 'points',
@@ -298,23 +189,31 @@ var ITEM_BEHAVIOR = {
     points_type: 'exchange',
     points_amount: 1,
   },
-  '离恨烟兑换币×12': {
+  '猎空之翼兑换币×88': {
     quality: 'purple',
     has_showcase: false,
     gacha_behavior: 'points',
     bonus_behavior: 'points',
     points_type: 'exchange',
-    points_amount: 12,
+    points_amount: 88,
   },
-  '离恨烟兑换币×15': {
+  '猎空之翼兑换币×66': {
     quality: 'purple',
     has_showcase: false,
     gacha_behavior: 'points',
     bonus_behavior: 'points',
     points_type: 'exchange',
-    points_amount: 15,
+    points_amount: 66,
   },
-  '离恨烟兑换币×18': {
+  '猎空之翼兑换币×30': {
+    quality: 'purple',
+    has_showcase: false,
+    gacha_behavior: 'points',
+    bonus_behavior: 'points',
+    points_type: 'exchange',
+    points_amount: 30,
+  },
+  '猎空之翼兑换币×18': {
     quality: 'purple',
     has_showcase: false,
     gacha_behavior: 'points',
@@ -322,39 +221,23 @@ var ITEM_BEHAVIOR = {
     points_type: 'exchange',
     points_amount: 18,
   },
-  '离恨烟兑换币×2': {
+  '猎空之翼兑换币×12': {
     quality: 'purple',
     has_showcase: false,
     gacha_behavior: 'points',
     bonus_behavior: 'points',
     points_type: 'exchange',
-    points_amount: 2,
+    points_amount: 12,
   },
-  '离恨烟兑换币×3': {
+  '猎空之翼兑换币×10': {
     quality: 'purple',
     has_showcase: false,
     gacha_behavior: 'points',
     bonus_behavior: 'points',
     points_type: 'exchange',
-    points_amount: 3,
+    points_amount: 10,
   },
-  '离恨烟兑换币×5': {
-    quality: 'purple',
-    has_showcase: false,
-    gacha_behavior: 'points',
-    bonus_behavior: 'points',
-    points_type: 'exchange',
-    points_amount: 5,
-  },
-  '离恨烟兑换币×6': {
-    quality: 'purple',
-    has_showcase: false,
-    gacha_behavior: 'points',
-    bonus_behavior: 'points',
-    points_type: 'exchange',
-    points_amount: 6,
-  },
-  '离恨烟兑换币×8': {
+  '猎空之翼兑换币×8': {
     quality: 'purple',
     has_showcase: false,
     gacha_behavior: 'points',
@@ -362,22 +245,28 @@ var ITEM_BEHAVIOR = {
     points_type: 'exchange',
     points_amount: 8,
   },
-  '离恨烟挂饰': {
-    quality: 'gold',
+  '猎空之翼兑换币×3': {
+    quality: 'purple',
     has_showcase: false,
-    gacha_behavior: 'storage',
-    bonus_behavior: 'warehouse',
+    gacha_behavior: 'points',
+    bonus_behavior: 'points',
+    points_type: 'exchange',
+    points_amount: 3,
   },
-  '闪光弹-王者蔷薇': {
-    quality: 'gold',
+  '猎空之翼兑换币×2': {
+    quality: 'purple',
     has_showcase: false,
-    gacha_behavior: 'storage',
-    bonus_behavior: 'warehouse',
+    gacha_behavior: 'points',
+    bonus_behavior: 'points',
+    points_type: 'exchange',
+    points_amount: 2,
   },
-  '闪光弹-王者蔷薇-离恨烟': {
-    quality: 'gold',
+  '猎空之翼兑换币×1': {
+    quality: 'purple',
     has_showcase: false,
-    gacha_behavior: 'storage',
-    bonus_behavior: 'warehouse',
+    gacha_behavior: 'points',
+    bonus_behavior: 'points',
+    points_type: 'exchange',
+    points_amount: 1,
   },
 };

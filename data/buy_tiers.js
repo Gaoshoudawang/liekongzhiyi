@@ -3,28 +3,28 @@
 var BUY_TIERS = [
   {
     tier: 0,
-    reward: '离恨烟夺宝币×1',
+    reward: '猎空之翼夺宝币×1',
     reward_count: 1,
     price: 6,
     bg_image: 'images/common/pages/buy/shop_bg_0.png'
   },
   {
     tier: 1,
-    reward: '离恨烟夺宝币×10',
+    reward: '猎空之翼夺宝币×10',
     reward_count: 10,
     price: 50,
     bg_image: 'images/common/pages/buy/shop_bg_1.png'
   },
   {
     tier: 2,
-    reward: '离恨烟夺宝币×66',
+    reward: '猎空之翼夺宝币×66',
     reward_count: 66,
     price: 328,
     bg_image: 'images/common/pages/buy/shop_bg_2.png'
   },
   {
     tier: 3,
-    reward: '离恨烟夺宝币×135',
+    reward: '猎空之翼夺宝币×135',
     reward_count: 135,
     price: 648,
     bg_image: 'images/common/pages/buy/shop_bg_3.png'
